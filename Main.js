@@ -32,7 +32,7 @@ function result() {
   }
 
   if(document.getElementById("uk").checked) {
-    var weight = Math.round(300 / 14 )+ "stone";
+    var weight = Math.round(300 / 14 )+ " stone";
     var temperature =  Math.round((94 - 32) * 5 /9) + " centigrade";
     newStory=newStory.replace("94 fahrenheit", temperature);
     newStory=newStory.replace("300 pounds", weight);
